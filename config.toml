@@ -1,0 +1,4 @@
+baseURL = 'http://brukeriet.se/'
+languageCode = 'sv-SE'
+title = 'Brukeriet'
+theme = 'lynx'
