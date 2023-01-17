@@ -3,7 +3,7 @@
 {{ $sections := $headless.Resources.ByType "page" }}
 {{ $sections := cond .Site.BuildDrafts $sections (where $sections "Draft" "==" false) }}
 <header id="site-head" {{ with .Params.header_image }}style="background-image: url({{ . }})"{{ end }}>
-    <div class="vertical"  {{ with .Params.background_overlay_color_opacity }}style="background-color: rgba(0,0,0,{{ . }})"{{ end }}>
+    <div class="vertical">
         <div id="site-head-content" class="inner">
 
             {{ with .Params.header_logo }}<img class="blog-logo" src="{{ . }}" />{{ end }}
