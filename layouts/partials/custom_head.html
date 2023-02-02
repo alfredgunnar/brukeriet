@@ -50,12 +50,13 @@
 
     header #valve {
         background-color: rgba(255,255,255,0.95);
-        width: 800px;
         position: absolute;
-        height: 1000px;
+        height: 85%;
         bottom: 0;
         left: 50%;
-        margin-left: -400px;
+        max-width: 100%;
+        width: 800px;
+        margin-left: max(-50%, -400px);
         border-radius: 400px 400px 0 0;
     }
 
@@ -89,6 +90,35 @@
 
     .site-footer {
         background-color: inherit;
+    }
+
+    @media only screen and (max-width: 1130px) {
+
+        header #valve {
+            width: 600px;
+            margin-left: max(-50%, -300px);
+            border-radius: 300px 300px 0 0;
+        }
+
+        img.blog-logo {
+            width: 400px;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        header #valve {
+            width: 300px;
+            margin-left: max(-50%, -150px);
+            border-radius: 150px 150px 0 0;
+        }
+
+        img.blog-logo {
+            width: 200px;
+        }
+
+        .blog-description {
+            font-size: 1.3rem;
+        }
     }
 
 </style>
