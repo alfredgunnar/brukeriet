@@ -1,5 +1,5 @@
 ---
-header_image: "images/cover-image.jpg"
-header_logo: "images/logo.png"
-header_subheadline: "Möbler och inredning med hjärta för hållbarhet och återbruk"
+header_image: "images/wood.jpg"
+header_logo: "images/logo_new_black.png"
+header_subheadline: "Unik interiör"
 ---

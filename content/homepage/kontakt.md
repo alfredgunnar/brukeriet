@@ -4,8 +4,5 @@ weight: 3
 header_menu: true
 ---
 
-{{<icon class="fa fa-envelope">}}&nbsp;[mail@janedoe.com](mailto:your-email@your-domain.com)
-
-{{<icon class="fa fa-phone">}}&nbsp;[+49 1111 555555](tel:+491111555555)
-
-Let us get in touch!
+Hör av dig genom ett DM på {{<icon class="fa fa-instagram">}}&nbsp;[brukeriet](https://www.instagram.com/brukeriet/)
+eller skicka ett mail till {{<icon class="fa fa-envelope">}}&nbsp;[info@brukeriet.se](mailto:info@brukeriet.se)

@@ -3,6 +3,7 @@
 {{ $sections := $headless.Resources.ByType "page" }}
 {{ $sections := cond .Site.BuildDrafts $sections (where $sections "Draft" "==" false) }}
 <header id="site-head" {{ with .Params.header_image }}style="background-image: url({{ . }})"{{ end }}>
+    <div id="valve"></div>
     <div class="vertical">
         <div id="site-head-content" class="inner">
 
@@ -11,7 +12,7 @@
             {{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
 
             {{ range where $sections ".Params.header_menu" "eq" true }}
-                 <a class='btn site-menu' data-title-anchor='{{ anchorize .Title }}'>{{ .Title }}</a>
+                 <!--<a class='btn site-menu' data-title-anchor='{{ anchorize .Title }}'>{{ .Title }}</a>-->
             {{ end }}
             <i id='header-arrow' class="fa fa-angle-down"></i>
         </div>
@@ -31,7 +32,6 @@
                     {{ .Content }}
                 </section>
             </article>
-            <div class='post-after'></div>
         </div>
     {{ end }}
 </main>

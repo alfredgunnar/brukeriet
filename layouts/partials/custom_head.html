@@ -6,8 +6,39 @@
 
 <style>
 
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #443D3D;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+    }
+
+    h1,
+    h2 {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .blog-description {
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+    header#site-head {
+        color: #000000;
+    }
+
     header#site-head::before{
-        background-color: rgba(0, 0, 0, 0.7);
+        // background-color: rgba(0, 0, 0, 0.7);
         content: '';
         display: block;
         position: absolute;
@@ -15,6 +46,17 @@
         width: 100%;
         top: 0;
         left: 0;
+    }
+
+    header #valve {
+        background-color: rgba(255,255,255,0.95);
+        width: 800px;
+        position: absolute;
+        height: 1000px;
+        bottom: 0;
+        left: 50%;
+        margin-left: -400px;
+        border-radius: 400px 400px 0 0;
     }
 
     img.blog-logo {
@@ -30,7 +72,28 @@
         background-color: #DCC098;
     }
 
+    .post-holder {
+        background: #F6F0E2;
+    }
+    .post-holder article {
+        padding: 150px 0;
+    }
+    .post-holder.odd {
+        background: #824C1B;
+        color: white;
+    }
+
+    .post-holder p img {
+        margin: 75px 0 0;
+    }
+
+    .site-footer {
+        background-color: inherit;
+    }
+
 </style>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700">
 
 <!-- <style>
      /* Links */
