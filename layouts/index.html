@@ -19,19 +19,22 @@
 </header>
 <main class="content" role="main">
 
-    <div class='fixed-nav'>
-    </div>
+    <!--<div class='fixed-nav'>
+    </div>-->
     {{ range $index_val, $elem_val := $sections }}
         <div class='post-holder'>
             <article id='{{ anchorize .Title }}' class='post {{ if eq $index_val 0 }}first{{ end }} {{ if eq (add $index_val 1) (len $sections) }}last{{ end }}'>
                 <header class="post-header">
                     <h2 class="post-title">{{ .Title }}</h2>
                 </header>
-                <section class="post-content">
+                <section class="post-content {{ if .Params.flex }}flex{{ end }}">
                     {{ .Content }}
                 </section>
             </article>
         </div>
+        {{ with .Params.succeeding_image }}
+        <div class="succeeding-image" style="background-image: url('{{ . }}')"></div>
+        {{ end }}
     {{ end }}
 </main>
 {{ end }}

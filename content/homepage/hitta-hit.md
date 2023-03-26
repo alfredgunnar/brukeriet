@@ -2,13 +2,14 @@
 title: "Hitta hit"
 weight: 2
 header_menu: true
+succeeding_image: images/IMG_4123.jpg
 ---
 
 Vi finns på **Spinneriet i Lindome**, en fantasisk industriell byggnad med anor från 1800-talet. Läs mer om Spinneriet i Lindome [här](https://www.spinnerietlindome.se/).
 
 Närmsta hållplats är **Annestorpsvägen** som du kan komma till med buss 761 från **Heden** i centrala Göteborg.
 
-Spinnmästarevägen 2, Våning 1
+Spinnmästarevägen 2, Våning 2
 437 34 Lindome
 
 ### Öppettider

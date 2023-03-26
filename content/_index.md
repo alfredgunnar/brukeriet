@@ -1,5 +1,5 @@
 ---
-header_image: "images/wood.jpg"
-header_logo: "images/logo_new.png"
+header_image: "images/IMG_4133.jpg"
+header_logo: "images/logo_brun.png"
 header_subheadline: ""
 ---
