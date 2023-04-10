@@ -9,10 +9,13 @@ Vi finns på **Spinneriet i Lindome**, en fantasisk industriell byggnad med anor
 
 Närmsta hållplats är **Annestorpsvägen** som du kan komma till med buss 761 från **Heden** i centrala Göteborg.
 
+Fri parkering.
+
+**Adress**
 Spinnmästarevägen 2, Våning 2
 437 34 Lindome
 
-### Öppettider
+#### Öppettider
 
 Torsdag 11-16
 Fredag 11-16

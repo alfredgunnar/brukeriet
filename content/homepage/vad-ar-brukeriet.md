@@ -1,5 +1,5 @@
 ---
-title: "Vad är Brukeriet?"
+title: "Om oss"
 weight: 1
 header_menu: true
 succeeding_image: images/IMG_4572.jpg
@@ -7,12 +7,11 @@ flex: true
 ---
 
 {{< flex-element >}}
-På Brukeriet brinner vi för unik inredning med själ och karaktär, och vill samtidigt inspirera dig till att tänka hållbart och gärna cirkulärt när du inreder ditt hem.
+<p>På Brukeriet brinner vi för unik inredning med själ och karaktär, och vill inspirera dig till att tänka hållbart och cirkulärt när du inreder ditt hem.</p>
 
-I vår butikslokal som andas tidig 1900-tals industrihistoria säljer vi både gammalt och nytt. Allt är handplockat ned på detaljnivå med stor omsorg. 
-Hittar vi något som behöver fräschas upp innan försäljning så gör vi det på plats i butiken.
+<p>I vår butikslokal säljer vi både gammalt och nytt. Allt är handplockat ner på detaljnivå med stor omsorg. I Brukeriets verkstad renoverar vi ytskikt och fräschar upp möbler.</p>
 
-Låt dig inspireras genom ett besök i vår butik eller genom att följa oss på Instagram. 
+<p>Varmt välkommen att besöka vår butik! För att få nys om det senaste i butiken, följ oss på <a href="https://www.instagram.com/brukeriet/">instagram</a>.</p>
 {{< /flex-element >}}
 
 {{< flex-element >}}
